@@ -1,4 +1,4 @@
-package java_grammar;
+package basic;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -32,7 +32,7 @@ public class array {
 		*/
 		
 		
-		/*
+		
 		// <정수 입력> 
 		// 입력을 받기 위한 Scanner 선언 
 		Scanner sc = new Scanner(System.in);
@@ -55,7 +55,9 @@ public class array {
 		// 방법2
 		char c2 = sc.next().charAt(0);
 		System.out.println(c2);
-		*/
+		
+		sc.close(); // scanner로 사용했던 resource를 다시 회수 할 수 있음  
+		
 		
 		
 		// <배열 기본속성> 
@@ -76,7 +78,7 @@ public class array {
 		// 레퍼런스 
 		array2 = array1;
 		System.out.println("array1 : " + array1);
-		System.out.println("array2 : " + array2); // array2에 array1 레퍼런스 했기 때문에 레퍼런스 값(주소) 값 자체가 같음 
+		System.out.println("array2 : " + array2); // array2와 array1는 레퍼런스 값(주소) 값 자체가 같음 
 		System.out.println("array3 : " + array3); // array3에 array1 요소만 복사 했기 때문에 레퍼런스 값(주소) 자체는 다름 
 		
 	}
