@@ -28,6 +28,5 @@ public class MainClass {
 			return result;
 		};
 		System.out.printf("I6.method(10,20) : %d\n", I6.method(10, 20));
-		
 	}
 }
